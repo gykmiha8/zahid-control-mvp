@@ -125,8 +125,8 @@ describe('App Component', () => {
   });
 
   // Test 7: Intentionally failing test to demonstrate test failure reporting
-  it('should intentionally fail to demonstrate test failure reporting', () => {
-    render(<App />);
-    expect(screen.queryByText(/ZahidControl/i)).not.toBeInTheDocument();
-  });
+//   it('should intentionally fail to demonstrate test failure reporting', () => {
+//     render(<App />);
+//     expect(screen.queryByText(/ZahidControl/i)).not.toBeInTheDocument();
+//   });
 });
